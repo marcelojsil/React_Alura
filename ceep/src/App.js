@@ -1,13 +1,13 @@
 import './App.css';
+import Formulario from './components/Formulario';
+import ListaDeNotas from './components/ListaDeNotas';
 
 function App() {
   return (
-    <>
-      <h1>MEU PRIMEIRO REACT</h1>
-      <div>
-        <p>Subtítulo</p>
-      </div>
-    </>
+    <section>
+      <Formulario />
+      <ListaDeNotas />
+    </section>
   );
 }
 
