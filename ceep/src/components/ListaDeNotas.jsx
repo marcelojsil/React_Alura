@@ -7,7 +7,7 @@ class ListaDeNotas extends Component {
             <ul>
                 {Array.of("Trabalho","Trabalho","Estudo").map((categoria) => {
                     return (
-                        <li>
+                        <li className="notas">
                             <Notas />
                             <div>{categoria}</div>
                         </li>

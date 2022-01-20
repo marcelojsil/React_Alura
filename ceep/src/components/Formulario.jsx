@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import "./CardEstilos/StyleForm.css"
 
 export default class Formulario extends Component {
     render() {
         return(
-            <form>
-                <input placeholder='texto1' />
-                <textarea placeholder='texto2' />
-                <button>Botão</button>
+            <form className="form">
+                <input placeholder='texto1' className="text"/>
+                <textarea placeholder='texto2' className="area"/>
+                <button className="btn">Botão</button>
             </form>
         );
     }
