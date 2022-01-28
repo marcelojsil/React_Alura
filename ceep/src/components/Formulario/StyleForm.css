@@ -1,7 +1,6 @@
 .form {
     background-color: aqua;
     width: 50%;
-    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,11 +9,13 @@
 .text {
     color: brown;
     margin: 10px;
+    width: 80%;
 }
 
 .area {
     background-color: aquamarine;
     margin: 10px;
+    width: 80%;
 }
 
 .btn {
